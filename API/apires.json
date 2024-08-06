@@ -1,0 +1,198 @@
+{
+  "restaurantInfo": {
+    "name": "Sweet and sour",
+    "address": "Mansoura Elmashaya-Street",
+    "phone": "015 5074 0490",
+    "email": "mahmoudsalah20012001@gmail.com",
+    "hours": {
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 11:00 PM",
+      "saturday": "12:00 PM - 11:00 PM",
+      "sunday": "12:00 PM - 9:00 PM"
+    },
+    "description": "Sweet and sour offers a variety of delicious dishes made from the freshest ingredients. Join us for a delightful dining experience."
+  },
+  "menuCategories": [
+    {
+      "id": 1,
+      "name": "Appetizers"
+    },
+    {
+      "id": 2,
+      "name": "Main Courses"
+    },
+    {
+      "id": 3,
+      "name": "Desserts"
+    },
+    {
+      "id": 4,
+      "name": "Beverages"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Bruschetta",
+      "description": "Grilled bread topped with diced tomatoes, garlic, and basil.",
+      "price": 8.99,
+      "image": "https://images.pexels.com/photos/5602720/pexels-photo-5602720.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "Stuffed Mushrooms",
+      "description": "Mushrooms stuffed with cheese and herbs, baked to perfection.",
+      "price": 10.99,
+      "image": "https://images.pexels.com/photos/5718129/pexels-photo-5718129.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 3,
+      "category_id": 2,
+      "name": "Grilled Salmon",
+      "description": "Fresh salmon grilled and served with seasonal vegetables.",
+      "price": 18.99,
+      "image": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "name": "Ribeye Steak",
+      "description": "Juicy ribeye steak cooked to your liking, served with mashed potatoes.",
+      "price": 24.99,
+      "image": "https://images.pexels.com/photos/6542787/pexels-photo-6542787.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 5,
+      "category_id": 3,
+      "name": "Cheesecake",
+      "description": "Creamy cheesecake with a graham cracker crust.",
+      "price": 6.99,
+      "image": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 6,
+      "category_id": 3,
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a gooey chocolate center.",
+      "price": 7.99,
+      "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "category_id": 4,
+      "name": "Fresh Lemonade",
+      "description": "Refreshing lemonade made with fresh lemons.",
+      "price": 3.99,
+      "image": "https://images.pexels.com/photos/1187766/pexels-photo-1187766.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "category_id": 4,
+      "name": "Iced Coffee",
+      "description": "Chilled coffee served over ice, perfect for a hot day.",
+      "price": 4.99,
+      "image": "https://images.pexels.com/photos/3636959/pexels-photo-3636959.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 9,
+      "category_id": 1,
+      "name": "Garlic Bread",
+      "description": "Toasted bread topped with garlic butter and herbs.",
+      "price": 5.99,
+      "image": "https://images.pexels.com/photos/1718446/pexels-photo-1718446.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 10,
+      "category_id": 2,
+      "name": "Chicken Alfredo",
+      "description": "Grilled chicken served over fettuccine pasta with creamy Alfredo sauce.",
+      "price": 15.99,
+      "image": "https://images.pexels.com/photos/24738527/pexels-photo-24738527/free-photo-of-close-up-of-a-bowl-of-udon-noodles-and-chicken.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "category_id": 3,
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+      "price": 7.99,
+      "image": "https://images.pexels.com/photos/23996352/pexels-photo-23996352/free-photo-of-top-view-of-a-tiramisu.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 12,
+      "category_id": 4,
+      "name": "Mojito",
+      "description": "Refreshing cocktail made with lime, mint, and soda water.",
+      "price": 8.99,
+      "image": "https://images.pexels.com/photos/4784/alcohol-bar-party-cocktail.jpg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "name": "Mozzarella Sticks",
+      "description": "Fried mozzarella cheese sticks served with marinara sauce.",
+      "price": 7.99,
+      "image": "https://images.pexels.com/photos/5639378/pexels-photo-5639378.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+      "price": 9.99,
+      "image": "https://images.pexels.com/photos/10794794/pexels-photo-10794794.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 15,
+      "category_id": 2,
+      "name": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with creamy sauce, pancetta, and Parmesan cheese.",
+      "price": 14.99,
+      "image": "https://images.pexels.com/photos/4518846/pexels-photo-4518846.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 16,
+      "category_id": 2,
+      "name": "BBQ Ribs",
+      "description": "Tender pork ribs smothered in barbecue sauce, served with coleslaw and fries.",
+      "price": 19.99,
+      "image": "https://images.pexels.com/photos/9650087/pexels-photo-9650087.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 17,
+      "category_id": 3,
+      "name": "Apple Pie",
+      "description": "Traditional apple pie with a flaky crust and a scoop of vanilla ice cream.",
+      "price": 5.99,
+      "image": "https://images.pexels.com/photos/6163263/pexels-photo-6163263.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 18,
+      "category_id": 3,
+      "name": "Panna Cotta",
+      "description": "Italian dessert made with sweetened cream and topped with berry compote.",
+      "price": 6.99,
+      "image": "https://images.pexels.com/photos/302468/pexels-photo-302468.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 19,
+      "category_id": 4,
+      "name": "Mango Smoothie",
+      "description": "Fresh mango smoothie made with ripe mangoes and yogurt.",
+      "price": 4.99,
+      "image": "https://images.pexels.com/photos/6493405/pexels-photo-6493405.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 20,
+      "category_id": 4,
+      "name": "Hot Chocolate",
+      "description": "Rich and creamy hot chocolate topped with whipped cream.",
+      "price": 3.99,
+      "image": "https://images.pexels.com/photos/1839882/pexels-photo-1839882.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}

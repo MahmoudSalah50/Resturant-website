@@ -1,0 +1,85 @@
+/* Row styling */
+.rw {
+    margin-top: 8%;
+  }
+  
+  /* Card styling */
+  .cad {
+    height: 450px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cad:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .mgg {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .mgg:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Title styling */
+  .mnn {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  
+  /* Description styling */
+  .description {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  /* Price styling */
+  .price {
+    color: #a7a718;
+  }
+  
+  /* Quantity controls styling */
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-controls button {
+    margin: 0 5px;
+  }
+  
+  .quantity {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  /* Search input styling */
+  input[type="search"] {
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  .bt{
+    position: relative;
+    left:82%;
+  }
+  .btp{
+    position: relative;
+    right: 12%;
+  }
+  

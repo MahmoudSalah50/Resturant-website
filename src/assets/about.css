@@ -1,0 +1,132 @@
+.about-container {
+  padding: 2rem;
+}
+
+h1.animated-title {
+  font-size: 2.5rem;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  animation: titleAnimation 2s ease-out;
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+  font-size: 1.75rem;
+  color: #888870;
+  transition: color 0.3s ease;
+}
+
+.card-title:hover {
+  color: #888870; 
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.image-container {
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem; 
+  left:30%;
+}
+
+.image-effect {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.image-effect:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.rounded-custom {
+  border-radius: 0.5rem; 
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 767.98px) {
+  .image-effect {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-effect {
+    height: 400px; 
+  }
+}
+/* contact */
+/* styles.css */
+
+/* General page styling */
+.contact-container {
+  padding: 2rem;
+}
+
+h1.animated-title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  animation: titleAnimation 2s ease-out;
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
